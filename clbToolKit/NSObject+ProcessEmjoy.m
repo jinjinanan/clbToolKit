@@ -93,7 +93,7 @@
             case 15:
                 letter =@"F"; break;
             default:
-                letter = [NSString stringWithFormat:@"%ld", number];
+                letter = [NSString stringWithFormat:@"%ld", (long)number];
         }
         hex = [letter stringByAppendingString:hex];
         if (decimal == 0) {
@@ -108,7 +108,7 @@
 +(NSString *)getDecimalByHex:(NSString *)hex
 {
     NSInteger a = [self getDecimalByBinary:[self getBinaryByHex:hex]];
-    NSString *str = [NSString stringWithFormat:@"%ld",a];
+    NSString *str = [NSString stringWithFormat:@"%ld",(long)a];
     return str;
 }
 
@@ -212,7 +212,7 @@
     NSString *binary = @"";
     while (decimal) {
         
-        binary = [[NSString stringWithFormat:@"%ld", decimal % 2] stringByAppendingString:binary];
+        binary = [[NSString stringWithFormat:@"%ld", (long)decimal % 2] stringByAppendingString:binary];
         if (decimal / 2 < 1) {
             
             break;
@@ -240,10 +240,11 @@
     NSString *tempStr2 = [tempStr1 stringByReplacingOccurrencesOfString:@"\""withString:@"\\\""];
     NSString *tempStr3 = [[@"\""stringByAppendingString:tempStr2] stringByAppendingString:@"\""];
     NSData *tempData = [tempStr3 dataUsingEncoding:NSUTF8StringEncoding];
-    NSString* returnStr = [NSPropertyListSerialization propertyListFromData:tempData
-                                                           mutabilityOption:NSPropertyListImmutable
-                                                                     format:NULL
-                                                           errorDescription:NULL];
+//    NSString* returnStr = [NSPropertyListSerialization propertyListFromData:tempData
+//                                                           mutabilityOption:NSPropertyListImmutable
+//                                                                     format:NULL
+//                                                           errorDescription:NULL];
+     NSString *returnStr = [NSPropertyListSerialization propertyListWithData:tempData options:NSPropertyListImmutable format:NULL error:NULL];
     return [returnStr stringByReplacingOccurrencesOfString:@"\\r\\n"withString:@"\n"];
 }
 

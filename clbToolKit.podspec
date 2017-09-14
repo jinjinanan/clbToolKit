@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-			toolkit of clb.
+			toolkit of clb. 备注
                    DESC
 
   s.homepage     = "https://github.com/jinjinanan/clbToolKit.git"
