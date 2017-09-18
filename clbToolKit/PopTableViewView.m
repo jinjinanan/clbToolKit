@@ -7,6 +7,8 @@
 //
 
 #import "PopTableViewView.h"
+#import "AppMacro.h"
+#import <Masonry/Masonry.h>
 
 @interface PopTableViewView()<UITableViewDelegate,UITableViewDataSource>
 
@@ -24,10 +26,10 @@
         
         self.conf = config;
         self.type = config.popStyle;
-        mWeakSelf
-        [self.attachedView bk_whenTapped:^{
-            [weakSelf hide];
-        }];
+//        mWeakSelf
+//        [self.attachedView bk_whenTapped:^{
+//            [weakSelf hide];
+//        }];
         [self configSubView:config];
     }
     return self;
