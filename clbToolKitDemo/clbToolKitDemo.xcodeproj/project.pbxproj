@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4429059073BCAA6782579F67 /* Pods_clbToolKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21721C9DACD7883173E8579 /* Pods_clbToolKitDemo.framework */; };
+		914CE1BC1F7B7DA100DD1D1C /* QuartzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914CE1BB1F7B7DA100DD1D1C /* QuartzViewController.m */; };
 		91DDC0621F6AAB2A00C6E1BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DDC0611F6AAB2A00C6E1BF /* main.m */; };
 		91DDC0651F6AAB2A00C6E1BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DDC0641F6AAB2A00C6E1BF /* AppDelegate.m */; };
 		91DDC0681F6AAB2A00C6E1BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DDC0671F6AAB2A00C6E1BF /* ViewController.m */; };
 		91DDC06B1F6AAB2A00C6E1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DDC0691F6AAB2A00C6E1BF /* Main.storyboard */; };
 		91DDC06D1F6AAB2A00C6E1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DDC06C1F6AAB2A00C6E1BF /* Assets.xcassets */; };
 		91DDC0701F6AAB2A00C6E1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DDC06E1F6AAB2A00C6E1BF /* LaunchScreen.storyboard */; };
+		91EC16951F8F6CB500FD68C2 /* MMPopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EC16931F8F6CB500FD68C2 /* MMPopVC.m */; };
+		91EC16961F8F6CB500FD68C2 /* MMPopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91EC16941F8F6CB500FD68C2 /* MMPopVC.xib */; };
+		91EC9E231F91A7BE001ACDF7 /* GradientColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EC9E221F91A7BE001ACDF7 /* GradientColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		892D9B8C3E4812323418CF89 /* Pods-clbToolKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clbToolKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-clbToolKitDemo/Pods-clbToolKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		910DD2C71F73E8F700F94E12 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		914CE1BA1F7B7DA100DD1D1C /* QuartzViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzViewController.h; sourceTree = "<group>"; };
+		914CE1BB1F7B7DA100DD1D1C /* QuartzViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzViewController.m; sourceTree = "<group>"; };
 		91DDC05D1F6AAB2A00C6E1BF /* clbToolKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clbToolKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DDC0611F6AAB2A00C6E1BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91DDC0631F6AAB2A00C6E1BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,13 @@
 		91DDC06C1F6AAB2A00C6E1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91DDC06F1F6AAB2A00C6E1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91DDC0711F6AAB2A00C6E1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91EC16921F8F6CB500FD68C2 /* MMPopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPopVC.h; sourceTree = "<group>"; };
+		91EC16931F8F6CB500FD68C2 /* MMPopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPopVC.m; sourceTree = "<group>"; };
+		91EC16941F8F6CB500FD68C2 /* MMPopVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMPopVC.xib; sourceTree = "<group>"; };
+		91EC9E211F91A7BE001ACDF7 /* GradientColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientColorViewController.h; sourceTree = "<group>"; };
+		91EC9E221F91A7BE001ACDF7 /* GradientColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientColorViewController.m; sourceTree = "<group>"; };
+		A21721C9DACD7883173E8579 /* Pods_clbToolKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clbToolKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3F3BC037DCB9585904D101 /* Pods-clbToolKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clbToolKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clbToolKitDemo/Pods-clbToolKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4429059073BCAA6782579F67 /* Pods_clbToolKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		420FA917B5621BFEE523D9D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F3BC037DCB9585904D101 /* Pods-clbToolKitDemo.debug.xcconfig */,
+				892D9B8C3E4812323418CF89 /* Pods-clbToolKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47834F5917679A439E8C5206 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A21721C9DACD7883173E8579 /* Pods_clbToolKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		914CE1B91F7B7D8D00DD1D1C /* Quartz */ = {
+			isa = PBXGroup;
+			children = (
+				914CE1BA1F7B7DA100DD1D1C /* QuartzViewController.h */,
+				914CE1BB1F7B7DA100DD1D1C /* QuartzViewController.m */,
+			);
+			path = Quartz;
+			sourceTree = "<group>";
+		};
 		91DDC0541F6AAB2A00C6E1BF = {
 			isa = PBXGroup;
 			children = (
+				910DD2C71F73E8F700F94E12 /* PrefixHeader.pch */,
 				91DDC05F1F6AAB2A00C6E1BF /* clbToolKitDemo */,
 				91DDC05E1F6AAB2A00C6E1BF /* Products */,
+				420FA917B5621BFEE523D9D0 /* Pods */,
+				47834F5917679A439E8C5206 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +104,9 @@
 		91DDC05F1F6AAB2A00C6E1BF /* clbToolKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				91EC9E201F91A7B0001ACDF7 /* GradientColor */,
+				91EC16891F8F6C6900FD68C2 /* MMpop */,
+				914CE1B91F7B7D8D00DD1D1C /* Quartz */,
 				91DDC0631F6AAB2A00C6E1BF /* AppDelegate.h */,
 				91DDC0641F6AAB2A00C6E1BF /* AppDelegate.m */,
 				91DDC0661F6AAB2A00C6E1BF /* ViewController.h */,
@@ -79,6 +128,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		91EC16891F8F6C6900FD68C2 /* MMpop */ = {
+			isa = PBXGroup;
+			children = (
+				91EC16921F8F6CB500FD68C2 /* MMPopVC.h */,
+				91EC16931F8F6CB500FD68C2 /* MMPopVC.m */,
+				91EC16941F8F6CB500FD68C2 /* MMPopVC.xib */,
+			);
+			path = MMpop;
+			sourceTree = "<group>";
+		};
+		91EC9E201F91A7B0001ACDF7 /* GradientColor */ = {
+			isa = PBXGroup;
+			children = (
+				91EC9E211F91A7BE001ACDF7 /* GradientColorViewController.h */,
+				91EC9E221F91A7BE001ACDF7 /* GradientColorViewController.m */,
+			);
+			path = GradientColor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91DDC0741F6AAB2A00C6E1BF /* Build configuration list for PBXNativeTarget "clbToolKitDemo" */;
 			buildPhases = (
+				CC39F7F8F431D966E96A91C5 /* [CP] Check Pods Manifest.lock */,
 				91DDC0591F6AAB2A00C6E1BF /* Sources */,
 				91DDC05A1F6AAB2A00C6E1BF /* Frameworks */,
 				91DDC05B1F6AAB2A00C6E1BF /* Resources */,
+				6A333E93649FD4603F186B67 /* [CP] Embed Pods Frameworks */,
+				0448B55D3186DA1C00C58037 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,11 +211,70 @@
 			files = (
 				91DDC0701F6AAB2A00C6E1BF /* LaunchScreen.storyboard in Resources */,
 				91DDC06D1F6AAB2A00C6E1BF /* Assets.xcassets in Resources */,
+				91EC16961F8F6CB500FD68C2 /* MMPopVC.xib in Resources */,
 				91DDC06B1F6AAB2A00C6E1BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0448B55D3186DA1C00C58037 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clbToolKitDemo/Pods-clbToolKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A333E93649FD4603F186B67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-clbToolKitDemo/Pods-clbToolKitDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MMPopupView/MMPopupView.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/clbToolKit/clbToolKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMPopupView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/clbToolKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clbToolKitDemo/Pods-clbToolKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC39F7F8F431D966E96A91C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clbToolKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91DDC0591F6AAB2A00C6E1BF /* Sources */ = {
@@ -154,6 +284,9 @@
 				91DDC0681F6AAB2A00C6E1BF /* ViewController.m in Sources */,
 				91DDC0651F6AAB2A00C6E1BF /* AppDelegate.m in Sources */,
 				91DDC0621F6AAB2A00C6E1BF /* main.m in Sources */,
+				91EC16951F8F6CB500FD68C2 /* MMPopVC.m in Sources */,
+				91EC9E231F91A7BE001ACDF7 /* GradientColorViewController.m in Sources */,
+				914CE1BC1F7B7DA100DD1D1C /* QuartzViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +404,12 @@
 		};
 		91DDC0751F6AAB2A00C6E1BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3F3BC037DCB9585904D101 /* Pods-clbToolKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 57K9GPSDFX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = clbToolKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clb.clbToolKitDemo;
@@ -283,9 +419,12 @@
 		};
 		91DDC0761F6AAB2A00C6E1BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892D9B8C3E4812323418CF89 /* Pods-clbToolKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 57K9GPSDFX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = clbToolKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clb.clbToolKitDemo;
@@ -312,6 +451,7 @@
 				91DDC0761F6AAB2A00C6E1BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

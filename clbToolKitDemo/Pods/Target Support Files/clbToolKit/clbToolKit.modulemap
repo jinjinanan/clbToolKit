@@ -1,0 +1,6 @@
+framework module clbToolKit {
+  umbrella header "clbToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
