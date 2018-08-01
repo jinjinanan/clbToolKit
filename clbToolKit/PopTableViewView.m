@@ -44,8 +44,9 @@
     self.tableV.scrollEnabled = NO;
     [self.tableV registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
     [self.tableV setSeparatorInset:self.conf.separatorInset];
-
     
+
+    self.backgroundColor = [UIColor whiteColor];
     
     [self.conf.nameOfCellClassAry enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         if (weakSelf.conf.isXib)
@@ -63,8 +64,13 @@
         make.size.mas_equalTo(config.tableSize);
     }];
     
-    [self mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(weakSelf.tableV);
+    [self.tableV mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.right.left.equalTo(weakSelf);
+        if (@available(iOS 11.0, *)) {
+            make.bottom.equalTo(weakSelf.mas_safeAreaLayoutGuideBottom);
+        } else {
+            make.bottom.equalTo(weakSelf);
+        }
     }];
 }
 
